@@ -1,0 +1,6 @@
+Run("cmd.exe")
+WinWaitActive("Администратор: C:\Windows\system32\cmd.exe")
+Send("shutdown -s -t 5")
+Send ("{Enter}")
+Send ("Exit")
+Send ("{Enter}")

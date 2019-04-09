@@ -1,0 +1,5 @@
+Run("cmd.exe")
+WinWaitActive("[CLASS:ConsoleWindowClass]", "")
+Send("shutdown -s -t 10")
+Send("{ENTER}")
+WinClose("[ACTIVE]", "")
