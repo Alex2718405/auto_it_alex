@@ -54,8 +54,8 @@ While 1
 	;Local $iPID = RunAs($login, @ComputerName, $pass, 1, "c:\Windows\system32\cmd.exe", @SW_SHOWMAXIMIZED)
 	;RunAs ("oleksandr.bondar-m" , @ComputerName , "38uubQUBVp", 0, "c:\Windows\system32\dsac.exe", "", @SW_MAXIMIZE)
 	;Run ("c:\Windows\system32\dsac.exe")
-	Local $strUserName = "oleksandr.bondar"
-	Local $strPassword = "Alex!123321"
+	Local $strUserName = "***8****"
+	Local $strPassword = "A******!***"
 	Local $strDirectory = "C:\Windows\"
 	Local $strFiletoRun = "notepad.exe"
 	RunAsWait($strUserName, @ComputerName, $strPassword, 0, $strDirectory & $strFiletoRun)
